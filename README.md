@@ -1,4 +1,4 @@
-밑바닥부터 시작하는 딥러닝 
+# 밑바닥부터 시작하는 딥러닝
 
-https://seungdeng.tistory.com/
-블로그에 정리하며 공부중입니다.
+"밑바닥부터 시작하는 딥러닝" 책을 학습하며 정리합니다.  
+블로그 정리 링크: [Seungdeng's Blog](https://seungdeng.tistory.com/)
