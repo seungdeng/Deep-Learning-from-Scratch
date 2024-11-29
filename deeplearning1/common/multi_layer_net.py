@@ -22,7 +22,7 @@ class MultiLayerNet:
     weight_decay_lambda : 가중치 감소(L2 법칙)의 세기
     """
     def __init__(self, input_size, hidden_size_list, output_size,
-                 activation='relu', weight_init_std='relu', weight_decay_lambda=0):
+                 activation='relu', weight_init_std='relu', weight_decay_lambda=0.1):
         self.input_size = input_size
         self.output_size = output_size
         self.hidden_size_list = hidden_size_list
