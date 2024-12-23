@@ -46,7 +46,7 @@
 # =============================================================================
 # 
 # import sys
-# sys.path.append('..')
+# sys.path.append('..') 
 # from common.util import preprocess,create_contexts_target,convert_one_hot
 # 
 # text = 'You say goodbye and I say hello.'
