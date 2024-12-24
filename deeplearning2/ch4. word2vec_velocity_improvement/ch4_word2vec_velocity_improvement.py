@@ -79,3 +79,9 @@ sampler = UnigramSampler(corpus,power,sample_size)
 target = np.array([1,3,0])
 negative_sample = sampler.get_negative_sample(target)
 print(negative_sample)
+
+
+import sys
+sys.path.append('..')
+from common.util import analogy
+analogy('man', 'king', 'woman', word_to_id, id_to_word, word_vecs, top = 5)
