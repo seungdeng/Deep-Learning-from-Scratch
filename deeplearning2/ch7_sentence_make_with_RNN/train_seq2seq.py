@@ -19,7 +19,7 @@ from peeky_seq2seq import PeekySeq2seq
 char_to_id, id_to_char = sequence.get_vocab()
 
 # 입력 반전 여부 설정 =============================================
-is_reverse = False  # True
+is_reverse = True #False
 if is_reverse:
     x_train, x_test = x_train[:, ::-1], x_test[:, ::-1]
 # ================================================================
